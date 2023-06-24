@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "projectoherr"
+version = "0.1.0"
+description = ""
+authors = ["David Mora <dmorad@unal.edu.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+numpy = "^1.21.0"
+matplotlib = "^3.7.1"
+tk = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
